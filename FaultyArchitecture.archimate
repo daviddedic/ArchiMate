@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="(new model)" id="id-4a43397814b144b581e5cdc4490bc6f1" version="5.0.0">
+  <folder name="Strategy" id="id-d4c6e782c66e41ef9e887b2ee948a08f" type="strategy">
+    <element xsi:type="archimate:Capability" name="Capability" id="id-0bfd59ccd643424ab4c276da02e1468f"/>
+  </folder>
+  <folder name="Business" id="id-931d0a2bb8f74a4dbcad181cb27c1968" type="business">
+    <element xsi:type="archimate:BusinessActor" name="Business Actor" id="id-4b1f940206a04ca4940b2088126787a4"/>
+    <element xsi:type="archimate:BusinessService" name="Business Service" id="id-3f36188e6fac47a4bf716b391c6bc62d"/>
+    <element xsi:type="archimate:BusinessFunction" name="Business Function" id="id-9cc0f145a9ee4a43a0347b5dfe1b59d5"/>
+  </folder>
+  <folder name="Application" id="id-13d90e3e8b494045a99d0152271d5a5f" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-f9ce0e85991642459e829356bc5c5b02" type="technology"/>
+  <folder name="Motivation" id="id-537ea4333f8d4a6da64c54215026bdb4" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-513c0757c6a24cfcaf8a8ed531f79ed3" type="implementation_migration"/>
+  <folder name="Other" id="id-98980de198d446fdbb81110fbab15b65" type="other"/>
+  <folder name="Relations" id="id-d0e6e3fe143d47259eeb4671e0efd189" type="relations">
+    <element xsi:type="archimate:RealizationRelationship" id="id-f06894687314446888726c5f6d8e6998" source="id-3f36188e6fac47a4bf716b391c6bc62d" target="id-0bfd59ccd643424ab4c276da02e1468f"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-6c1ee0788d674b169b2c06f2a14685d5" source="id-4b1f940206a04ca4940b2088126787a4" target="id-3f36188e6fac47a4bf716b391c6bc62d"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-77431a27ca7e439b848a92fe77215735" source="id-9cc0f145a9ee4a43a0347b5dfe1b59d5" target="id-3f36188e6fac47a4bf716b391c6bc62d"/>
+  </folder>
+  <folder name="Views" id="id-fd16be899ee7419781006f5159e39705" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-e7794375009649af83f24cbf34f0d3cc">
+      <child xsi:type="archimate:DiagramObject" id="id-3c5a24735fdc454ab6adb4d51fb39c41" targetConnections="id-7984d0ea041347f48d11e0b872718e99" archimateElement="id-0bfd59ccd643424ab4c276da02e1468f">
+        <bounds x="384" y="192" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-bc926c65426646c082e57690b38d77a2" archimateElement="id-4b1f940206a04ca4940b2088126787a4">
+        <bounds x="660" y="60" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-c0e614e4bbc9455c9cd6fa3f34815f71" source="id-bc926c65426646c082e57690b38d77a2" target="id-f900afac2f02496289e7dbb1763c8b72" archimateRelationship="id-6c1ee0788d674b169b2c06f2a14685d5"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-f900afac2f02496289e7dbb1763c8b72" targetConnections="id-c0e614e4bbc9455c9cd6fa3f34815f71 id-d2cafee113014da39fd9926d6367cb21" archimateElement="id-3f36188e6fac47a4bf716b391c6bc62d">
+        <bounds x="696" y="190" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-7984d0ea041347f48d11e0b872718e99" source="id-f900afac2f02496289e7dbb1763c8b72" target="id-3c5a24735fdc454ab6adb4d51fb39c41" archimateRelationship="id-f06894687314446888726c5f6d8e6998"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-06e568922ad64262b7974bc9a9b299d5" archimateElement="id-9cc0f145a9ee4a43a0347b5dfe1b59d5">
+        <bounds x="713" y="288" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-d2cafee113014da39fd9926d6367cb21" source="id-06e568922ad64262b7974bc9a9b299d5" target="id-f900afac2f02496289e7dbb1763c8b72" archimateRelationship="id-77431a27ca7e439b848a92fe77215735"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>

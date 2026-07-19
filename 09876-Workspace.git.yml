@@ -1,0 +1,32 @@
+schemaVersion: 1
+
+manifestBinding:
+  manifestFile: "09876-Workspace.workspace"
+  manifestVersionSeen: 2
+
+repositoryBinding:
+  mode: "bound"
+  locator:
+    kind: "absolute-path"
+    value: "/Users/dave/Documents/09876-Workspace"
+  canonicalIdentity:
+    id: "primary"
+    schemeClass: "http-family"
+    host: "github.com"
+    path: "daviddedic/ArchiMate"
+  userIdentity:
+    kind: "git-email"
+    value: "david.dedic@gmail.com"
+  advisory:
+    remoteName: "origin"
+    defaultBranch: "main"
+
+trackedModules:
+  "Model1.archimate":
+    tracking: "tracked"
+    images: "inherit"
+  "modules/Model_3.archimate":
+    tracking: "tracked"
+    images: "inherit"
+
+referenceBindings:

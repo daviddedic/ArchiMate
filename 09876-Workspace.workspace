@@ -1,0 +1,5 @@
+version: 2
+savePolicy: loose
+models:
+  - Model1.archimate
+  - modules/Model_3.archimate

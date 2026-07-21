@@ -72,8 +72,8 @@
       </child>
     </element>
   </folder>
-  <profile name="Service Function" id="id-81c58080151e4f32a1d1147c9dce5461" conceptType="BusinessFunction" shortName="SRV"/>
-  <profile name="Technical Product" id="id-c9ff811bd87b4660bc7c6339a9f53599" conceptType="Product" shortName="T"/>
-  <profile name="Service Offering" id="id-f9d6a600786b4285bca156b25e29a5bb" conceptType="Product" shortName="OFR"/>
-  <profile name="Service Option" id="id-15c5000a2b6c40a1a3ed8557d1e89ed6" conceptType="Product" shortName="OPT"/>
+  <profile name="Service Function" id="id-81c58080151e4f32a1d1147c9dce5461" conceptType="BusinessFunction" shortName="SRV" helpText="Service Function"/>
+  <profile name="Technical Product" id="id-c9ff811bd87b4660bc7c6339a9f53599" conceptType="Product" shortName="T" helpText="T-Product"/>
+  <profile name="Service Offering" id="id-f9d6a600786b4285bca156b25e29a5bb" conceptType="Product" shortName="OFR" helpText="Service Offering"/>
+  <profile name="Service Option" id="id-15c5000a2b6c40a1a3ed8557d1e89ed6" conceptType="Product" shortName="OPT" helpText="Service Offering Option"/>
 </archimate:model>

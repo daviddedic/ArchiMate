@@ -9,6 +9,7 @@
     <element xsi:type="archimate:BusinessRole" name="Customer" id="id-4d3c5df3e7544d5ba0737e06ca55b13d"/>
     <element xsi:type="archimate:BusinessActor" name="Business Actor" id="id-094d9e2660f749f49d6f20277aa40b69"/>
     <element xsi:type="archimate:BusinessFunction" name="Input" id="id-8a756f427ded4a8d8057d90dfed961eb"/>
+    <element xsi:type="archimate:BusinessFunction" name="Core" id="id-325702e07bed4424b0e4c93c00864641"/>
   </folder>
   <folder name="Application" id="id-bc07bd2179dd47e89dc2bb52903e20d0" type="application"/>
   <folder name="Technology &amp; Physical" id="id-85051fee20ca4598ab00284356db5e56" type="technology"/>
@@ -25,6 +26,7 @@
       <target xsi:type="archimate:Capability" href="modules/Model_3.archimate#id-240531c4bd6b4ad9bcc622a0717560d5"/>
     </element>
     <element xsi:type="archimate:CompositionRelationship" id="id-86a139ce98e743d284d8f2eaad099fee" source="id-7218c75a48124e38940f871a08a1c0cc" target="id-8a756f427ded4a8d8057d90dfed961eb"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-b6c5f725a6684b6390812c7fe85f75f2" source="id-7218c75a48124e38940f871a08a1c0cc" target="id-325702e07bed4424b0e4c93c00864641"/>
   </folder>
   <folder name="Views" id="id-a4984b6841994d4aa8874bbc890e3ed9" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-23fbe95e044b4ec6ab0928e4e5e53e06">
@@ -44,8 +46,12 @@
           <bendpoint startX="-132" startY="-63" endX="24" endY="69"/>
         </sourceConnection>
         <sourceConnection xsi:type="archimate:Connection" id="id-2cdee35941de4660809509cb9e061825" source="id-e113e3d890a64e98b75b963a0e3592ba" target="id-ce04128dd6c04cb798ff55dd1a394f5c" archimateRelationship="id-86a139ce98e743d284d8f2eaad099fee"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-bd43cdb206574360b1435fc5353ac3f2" source="id-e113e3d890a64e98b75b963a0e3592ba" target="id-8d75033a0c7b4a6ebc0fd67768b24ab0" archimateRelationship="id-b6c5f725a6684b6390812c7fe85f75f2"/>
         <child xsi:type="archimate:DiagramObject" id="id-ce04128dd6c04cb798ff55dd1a394f5c" targetConnections="id-2cdee35941de4660809509cb9e061825" archimateElement="id-8a756f427ded4a8d8057d90dfed961eb">
           <bounds x="24" y="36" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-8d75033a0c7b4a6ebc0fd67768b24ab0" targetConnections="id-bd43cdb206574360b1435fc5353ac3f2" archimateElement="id-325702e07bed4424b0e4c93c00864641">
+          <bounds x="168" y="36" width="120" height="55"/>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-f296893805ad4d16ab37b152e28ca318" targetConnections="id-1c38c307b886461fb8b1f42628b01dc6" archimateElement="id-1026a8610176467dae687e9b155afdc9">

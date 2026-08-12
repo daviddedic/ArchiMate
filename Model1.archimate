@@ -40,7 +40,7 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-1c38c307b886461fb8b1f42628b01dc6" source="id-216b0d2fb3cf4480b2f0698eb5716557" target="id-f296893805ad4d16ab37b152e28ca318" archimateRelationship="id-0caa4c07b2a04f5bbc428bf53dd46307"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-e113e3d890a64e98b75b963a0e3592ba" archimateElement="id-7218c75a48124e38940f871a08a1c0cc">
-        <bounds x="240" y="300" width="313" height="146"/>
+        <bounds x="276" y="324" width="298" height="101"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-3af88395c19c4883a696862138ad6b21" source="id-e113e3d890a64e98b75b963a0e3592ba" target="id-da0f81f2e3694c17a77fa6c9feab1dd6" archimateRelationship="id-dcc14f7f0baa44d7a189451e7020dd5b">
           <bendpoint startY="-63" endX="156" endY="69"/>
           <bendpoint startX="-132" startY="-63" endX="24" endY="69"/>

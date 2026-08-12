@@ -23,7 +23,7 @@ repositoryBinding:
 
 trackedModules:
   "Model1.archimate":
-    tracking: "tracked"
+    tracking: "untracked"
     images: "inherit"
   "modules/Model_3.archimate":
     tracking: "tracked"
